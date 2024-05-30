@@ -1,15 +1,15 @@
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
-import { BsArrowLeft, BsArrowRight } from 'react-icons/bs';
-import data from '../../data.json';
-import Layout from '../ui/Layout';
-import PropTypes from 'prop-types';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
+import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
+import data from "../../data.json";
+import Layout from "../ui/Layout";
+import PropTypes from "prop-types";
 
 const Testimonials = () => {
-  const testimonials = data['section-testimonials'].clients;
-  const title = data['section-testimonials'].title;
+  const testimonials = data["section-testimonials"].clients;
+  const title = data["section-testimonials"].title;
 
   const CustomNextArrow = (props) => {
     const { onClick } = props;
@@ -53,18 +53,19 @@ const Testimonials = () => {
 
   return (
     <Layout>
-      <div className="px-4 pt-12">
+      <div className="px-4 py-12">
         <div className="flex flex-col items-center justify-center w-1/2 mx-auto text-center">
           <section id="testimonials">
             <h1
               className="text-blue-custom font-bold text-xl pb-4 lg:pb-8 mini:text-2xl sm:text-3xl md:text-[48px]"
-              style={{ lineHeight: 'normal' }}
+              style={{ lineHeight: "normal" }}
             >
               {title}
             </h1>
+            <p>{data["section-testimonials"].paragraph}</p>
           </section>
         </div>
-        <div className="mx-auto max-w-xl mt-2 break_custom2:mt-8">
+        {/* <div className="mx-auto max-w-xl mt-2 break_custom2:mt-8">
           <Slider
             {...settings}
             className="flex items-center justify-center mx-auto gap-4"
@@ -101,7 +102,7 @@ const Testimonials = () => {
               </div>
             ))}
           </Slider>
-        </div>
+        </div> */}
       </div>
     </Layout>
   );

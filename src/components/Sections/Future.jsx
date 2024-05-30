@@ -20,7 +20,11 @@ function Future() {
                     <h3 className="min-w-max font-bold text-xl">
                       {item.title}
                     </h3>
-                    <h3 className="">{item.subtitle}</h3>
+                    <ul style={{ listStyleType: "disc", paddingLeft: "20px" }}>
+                      {item.items.map((item, index) => (
+                        <li key={index}>{item}</li>
+                      ))}
+                    </ul>
                     <a href={item["action-link"]} target="_blank">
                       <h3 className="min-w-max text-[14px] cursor-pointer active:text-red-custom hover:text-blue-custom text-light-blue-custom">
                         {item.action}

@@ -1,12 +1,12 @@
-import { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
-import data from '../../data.json';
-import Layout from '../ui/Layout';
-import PropTypes from 'prop-types';
+import { useState, useEffect } from "react";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import data from "../../data.json";
+import Layout from "../ui/Layout";
+import PropTypes from "prop-types";
 
 const How = () => {
-  const timelineData = data['section-how'].timeline;
+  const timelineData = data["section-how"].timeline;
   const [visibleIndex, setVisibleIndex] = useState(-1);
 
   return (
@@ -15,7 +15,7 @@ const How = () => {
         <div className="px-4">
           <section id="how">
             <h1 className="text-center text-blue-custom font-bold text-xl pb-4 lg:py-10 mini:text-2xl sm:text-3xl md:text-[48px]">
-              {data['section-how'].title}
+              {data["section-how"].title}
             </h1>
           </section>
           <div className="grid gap-6">
@@ -69,7 +69,7 @@ const TimelineItem = ({
       <motion.div
         ref={ref}
         initial="hidden"
-        animate={visibleIndex >= index ? 'visible' : 'hidden'}
+        animate={visibleIndex >= index ? "visible" : "hidden"}
         variants={itemVariants}
         transition={itemTransition}
         className="grid grid-cols-3 sm:gap-4 relative"
@@ -80,7 +80,7 @@ const TimelineItem = ({
             alt={stage.alt}
             className="w-screen h-auto rounded-lg ml-[8vw] sm:ml-[12vw] 2xl:ml-0"
             style={{
-              boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.5)',
+              boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.5)",
             }}
           />
         </div>
@@ -92,14 +92,14 @@ const TimelineItem = ({
             <div
               className="absolute inset-y-0 left-1/2 w-0.5 mt-8"
               style={{
-                transform: 'translateX(-50%)',
-                borderLeft: '1px dotted #B4B4B4',
+                transform: "translateX(-50%)",
+                borderLeft: "1px dotted #B4B4B4",
                 zIndex: -1,
               }}
             ></div>
           )}
         </div>
-        <div className="col-span-1 flex flex-col items-start justify-start -ml-[8vw] sm:-ml-[12vw] 2xl:ml-0 lg:pr-20 text-xs">
+        <div className="col-span-1 flex flex-col items-start justify-center -ml-[8vw] sm:-ml-[12vw] 2xl:ml-0 lg:pr-20 text-xs">
           <div className="">
             <h3 className="sm:text-lg font-bold text-blue-custom">
               {stage.title}
@@ -107,11 +107,11 @@ const TimelineItem = ({
           </div>
           <p
             className="text-blue-custom text-[10px] md:text-[12px] lg:text-[16px]"
-            style={{ lineHeight: 'normal' }}
+            style={{ lineHeight: "normal" }}
           >
             {stage.subtitle}
           </p>
-          {stage.checks.map((check, i) => (
+          {/* {stage.checks.map((check, i) => (
             <div
               className="flex items-center gap-2 mt-1 sm:mt-2 md:mt-4 sm:ml-4"
               key={i}
@@ -128,7 +128,7 @@ const TimelineItem = ({
                 {check}
               </p>
             </div>
-          ))}
+          ))} */}
         </div>
       </motion.div>
     </section>

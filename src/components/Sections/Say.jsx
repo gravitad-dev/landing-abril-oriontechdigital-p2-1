@@ -12,7 +12,7 @@ function Say() {
     <section id="say">
       <Layout>
         <div
-          className="mt-12 bg-center"
+          className="my-12  bg-center"
           style={{
             backgroundImage: `url(${data["section-say"].bg})`,
             backgroundSize: "cover",
@@ -20,7 +20,7 @@ function Say() {
         >
           <div className="flex w-full h-[68vw] max-h-[985px] flex-col mx-auto text-center justify-around gap-8 break_custom:gap-16 sm:gap-36 2xl:gap-40">
             <div className="flex flex-col items-center justify-center w-[46%] md:w-[55%] mx-auto">
-              <p className="text-white font-bold text-[0.6rem] mini:text-[0.8rem] break_custom:text-[1rem] sm:text-[1.6rem] md:text-[2rem] xl:text-[3rem] leading-tight mt-4 sm:mt-0">
+              <p className="text-white font-semibold text-[0.6rem] mini:text-[0.8rem] break_custom:text-[1rem] sm:text-[1.6rem] md:text-[2rem] xl:text-[2.4rem] leading-tight mt-4 sm:mt-0">
                 {data["section-say"].title}
                 <span className="text-red-custom inline ml-[2%]">
                   {data["section-say"].title2}

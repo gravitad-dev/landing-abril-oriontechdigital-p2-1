@@ -71,9 +71,9 @@
       "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/f_auto,q_auto/v1/ia_landing/hero/bg",
       "alt": "hero bg"
     },
-    "title": "Orion Tech Helps",
-    "title2": "Marketing Agencies!",
-    "subtitle": "At nulla tristique facilisis augue. Lectus diam dignissim erat blandit pellentesque egestas nulla a. Nulla consectetur nunc egestas metus pellentesque.",
+    "title": "Innovate, Educate, Elevate",
+    "title2": "Innovate, Educate, Elevate",
+    "subtitle": "At OrionTechDigital, we are pioneers in the fields of Deep Learning, Blockchain, and E-Learning. Our team consists of passionate technologists and educators dedicated to leveraging advanced technologies to drive innovation and transformation across various industries. We believe in the power of technology to change the world and are committed to creating solutions that are both cutting-edge and impactful.",
     "button1": "Get Started",
     "button2": "How It Works"
   },
@@ -106,7 +106,7 @@
     },
     "title": "More About Us",
     "subtitle": "Professional & Team Choose Copy.Ai",
-    "paragraph": "Odio dictum lacus augue nulla sit integer facilisis massa. Nec et tellus eu amet. Faucibus sit sit massa ullamcorper",
+    "paragraph": "Our mission is to harness the potential of Deep Learning and Blockchain technologies to revolutionize the E-Learning landscape. We aim to provide accessible, high-quality education and training, enabling individuals and organizations to thrive in a digital-first world. By combining innovation with practical application, we strive to create a future where technology empowers everyone.",
     "button": "Get Started"
   },
   "section-features": {
@@ -114,8 +114,12 @@
     "cards": [
       {
         "id": 1,
-        "title": "Blog Content",
-        "subtitle": "Write optimized blog posts in a fraction of the time",
+        "title": "Deep Learning Solutions",
+        "items":[
+          "Custom AI models tailored to your business needs.",
+          "Advanced analytics and predictive modeling.",
+          "AI-driven automation and optimization."
+        ],
         "action": "Try Blog Content ->",
         "action-link": "https://blog.oriontechdigital.com",
         "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202094/ia_landing/icons/blog.png",
@@ -124,7 +128,11 @@
       {
         "id": 2,
         "title": "Article",
-        "subtitle": "Write optimized blog posts in a fraction of the time",
+        "items":[
+          "Secure and scalable blockchain applications.",
+          "Smart contract development and auditing.",
+          "Decentralized solutions for various industries."
+        ],
         "action": "Try Blog Content ->",
         "action-link": "https://blog.oriontechdigital.com",
         "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202094/ia_landing/icons/article.png",
@@ -133,44 +141,21 @@
       {
         "id": 3,
         "title": "Content Writing",
-        "subtitle": "Write optimized blog posts in a fraction of the time",
+        "items":[
+          "Interactive and engaging online courses.",
+          "Learning management systems (LMS) development.",
+          "AI-enhanced educational tools and resources."
+        ],
         "action": "Try Blog Content ->",
         "action-link": "https://blog.oriontechdigital.com",
         "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202095/ia_landing/icons/content%20writing.png",
         "alt": "Writing icon"
-      },
-      {
-        "id": 4,
-        "title": "Seo",
-        "subtitle": "Write optimized blog posts in a fraction of the time",
-        "action": "Try Blog Content ->",
-        "action-link": "https://blog.oriontechdigital.com",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202095/ia_landing/icons/seo.png",
-        "alt": "Seo icon"
-      },
-      {
-        "id": 5,
-        "title": "Design",
-        "subtitle": "Write optimized blog posts in a fraction of the time",
-        "action": "Try Blog Content ->",
-        "action-link": "https://blog.oriontechdigital.com",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202095/ia_landing/icons/design.png",
-        "alt": "Design icon"
-      },
-      {
-        "id": 6,
-        "title": "Coding",
-        "subtitle": "Write optimized blog posts in a fraction of the time",
-        "action": "Try Blog Content ->",
-        "action-link": "https://blog.oriontechdigital.com",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202094/ia_landing/icons/coding.png",
-        "alt": "Coding icon"
       }
     ]
   },
   "section-say": {
     "bg": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714203499/ia_landing/say/bg.png",
-    "title": "Say ‘Goodbye’ To The Blank Page",
+    "title": "We are constantly exploring new frontiers in technology to bring innovative solutions to our clients. Our commitment to R&D ensures that we stay ahead of the curve.",
     "title2": "For Good",
     "subtitle": "Get your free account today",
     "button1": "signup with google",
@@ -183,13 +168,14 @@
     "message": "No Credit Card Required"
   },
   "section-testimonials": {
-    "title": "Let’s See What Our Clients Says",
+    "title": "Expert Team",
+    "paragraph": "Our team is comprised of experts with deep knowledge and experience in their respective fields. Their passion and dedication drive the excellence we deliver.",
     "clients": [
       {
         "id": 1,
         "title": "Brooklyn Simmons",
         "role": "Nursing Assistant",
-        "paragraph": "Odio dictum lacus augue nulla sit integer facilisis massa. Nec et tellus eu amet. Faucibus sit sit massa ullamcorper",
+        "paragraph": "Expert Team Our team comprises experts with deep knowledge and experience in their respective fields. Their passion and dedication drive the excellence we deliver.",
         "image": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714210100/ia_landing/testimonials/1.png",
         "alt": "image client"
       },
@@ -228,8 +214,8 @@
     "timeline": {
       "stage 1": {
         "id": 1,
-        "title": "Enter your copywrite project",
-        "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra est purus eu tempor tincidunt commodo.",
+        "title": "Proven Track Record",
+        "subtitle": "We have successfully implemented numerous projects across various industries, demonstrating our expertise and reliability.",
         "checks": [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           "Quam duis viverra amet, ultrices risus quis integer nec nulla.",
@@ -240,8 +226,8 @@
       },
       "stage 2": {
         "id": 2,
-        "title": "Genarate Idea",
-        "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra est purus eu tempor tincidunt commodo.",
+        "title": "Quality Assurance",
+        "subtitle": "We adhere to the highest standards of quality in every project we undertake, ensuring that our solutions are effective and reliable.",
         "checks": [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           "Quam duis viverra amet, ultrices risus quis integer nec nulla.",
@@ -252,8 +238,8 @@
       },
       "stage 3": {
         "id": 3,
-        "title": "Copy & Use",
-        "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra est purus eu tempor tincidunt commodo.",
+        "title": "Transparent Processes",
+        "subtitle": "We believe in maintaining transparency with our clients throughout the project lifecycle, fostering trust and long-term relationships.",
         "checks": [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           "Quam duis viverra amet, ultrices risus quis integer nec nulla.",
@@ -264,8 +250,8 @@
       },
       "stage 4": {
         "id": 4,
-        "title": "Finalize Project",
-        "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra est purus eu tempor tincidunt commodo.",
+        "title": "Dedicated Support",
+        "subtitle": "Our support team is always ready to assist you, providing timely and effective solutions to any issues you may encounter.",
         "checks": [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           "Quam duis viverra amet, ultrices risus quis integer nec nulla.",
@@ -277,7 +263,8 @@
     }
   },
   "section-last": {
-    "title": "Ready to level-up?",
+    "title": "Client-Centric Approach",
+    "paragraph": "We prioritize our clients' needs and work closely with them to understand their challenges and goals. Our solutions are tailored to ensure maximum impact and satisfaction.",
     "subtitle": "Id ipsum amet nibh dolor mi ac diam pellentesque.",
     "button": "Get Started - It’s Free",
     "checks-icon": {
