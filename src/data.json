@@ -1,0 +1,393 @@
+{
+  "section-header": {
+    "logo": {
+      "image": {
+        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714206350/ia_landing/logos/logo.png",
+        "alt": "logo image"
+      },
+      "logo-button": "We’re Hiring"
+    },
+    "dropdow-icon": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714207472/ia_landing/dropdown.png",
+      "alt": "icon drop"
+    },
+    "links": [
+      {
+        "id": 0,
+        "title": "home",
+        "href": "home",
+        "isDropdown": false,
+        "items": [],
+        "icon": "home.png",
+        "alt": "icon resources"
+      },
+      {
+        "id": 1,
+        "title": "user cases",
+        "href": "cases",
+        "isDropdown": true,
+        "items": [
+          { "id": 1, "text": "about", "link": "about", "external": false },
+          { "id": 2, "text": "future", "link": "future", "external": false },
+          {
+            "id": 3,
+            "text": "testimonials",
+            "link": "testimonials",
+            "external": false
+          }
+        ],
+        "icon": "user-cases.png",
+        "alt": "user-cases icon"
+      },
+      {
+        "id": 3,
+        "title": "pricing",
+        "href": "last",
+        "isDropdown": false,
+        "external": false,
+        "items": ["", "", ""],
+        "icon": "prices.png",
+        "alt": "icon pricing"
+      },
+      {
+        "id": 4,
+        "title": "project",
+        "href": "how",
+        "isDropdown": false,
+        "external": false,
+        "items": ["", "", ""],
+        "icon": "project.png",
+        "alt": "icon project"
+      }
+    ],
+    "blog": "blog",
+    "blog-icon": "blog.png",
+    "blog-ref": "https://blog.oriontechdigital.com/",
+    "contact-button": "Contact Us",
+    "contact-button-icon": "contact.png"
+  },
+  "section-hero": {
+    "bg": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/f_auto,q_auto/v1/ia_landing/hero/bg",
+      "alt": "hero bg"
+    },
+    "title": "Orion Tech Helps",
+    "title2": "Marketing Agencies!",
+    "subtitle": "At nulla tristique facilisis augue. Lectus diam dignissim erat blandit pellentesque egestas nulla a. Nulla consectetur nunc egestas metus pellentesque.",
+    "button1": "Get Started",
+    "button2": "How It Works"
+  },
+  "section-slider": [
+    {
+      "id": 1,
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714207923/ia_landing/slider/azid7wpbslt7gejwb6or.png",
+      "alt": "logo1 image"
+    },
+    {
+      "id": 2,
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714207923/ia_landing/slider/yhfgy28c4z8hfw9voyi3.png",
+      "alt": "logo2 image"
+    },
+    {
+      "id": 3,
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714207922/ia_landing/slider/t3ylsyshjcsuuborlami.png",
+      "alt": "logo3 image"
+    },
+    {
+      "id": 4,
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714207922/ia_landing/slider/s19v3rzgw3h8pql219zc.png",
+      "alt": "logo4 image"
+    }
+  ],
+  "section-about": {
+    "video": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/video/upload/v1714271421/ia_landing/arflysquuiyapgl5nwcd.mp4",
+      "alt": "video design"
+    },
+    "title": "More About Us",
+    "subtitle": "Professional & Team Choose Copy.Ai",
+    "paragraph": "Odio dictum lacus augue nulla sit integer facilisis massa. Nec et tellus eu amet. Faucibus sit sit massa ullamcorper",
+    "button": "Get Started"
+  },
+  "section-features": {
+    "title": "Our Features",
+    "cards": [
+      {
+        "id": 1,
+        "title": "Blog Content",
+        "subtitle": "Write optimized blog posts in a fraction of the time",
+        "action": "Try Blog Content ->",
+        "action-link": "https://blog.oriontechdigital.com",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202094/ia_landing/icons/blog.png",
+        "alt": "Blog content icon"
+      },
+      {
+        "id": 2,
+        "title": "Article",
+        "subtitle": "Write optimized blog posts in a fraction of the time",
+        "action": "Try Blog Content ->",
+        "action-link": "https://blog.oriontechdigital.com",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202094/ia_landing/icons/article.png",
+        "alt": "Article icon"
+      },
+      {
+        "id": 3,
+        "title": "Content Writing",
+        "subtitle": "Write optimized blog posts in a fraction of the time",
+        "action": "Try Blog Content ->",
+        "action-link": "https://blog.oriontechdigital.com",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202095/ia_landing/icons/content%20writing.png",
+        "alt": "Writing icon"
+      },
+      {
+        "id": 4,
+        "title": "Seo",
+        "subtitle": "Write optimized blog posts in a fraction of the time",
+        "action": "Try Blog Content ->",
+        "action-link": "https://blog.oriontechdigital.com",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202095/ia_landing/icons/seo.png",
+        "alt": "Seo icon"
+      },
+      {
+        "id": 5,
+        "title": "Design",
+        "subtitle": "Write optimized blog posts in a fraction of the time",
+        "action": "Try Blog Content ->",
+        "action-link": "https://blog.oriontechdigital.com",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202095/ia_landing/icons/design.png",
+        "alt": "Design icon"
+      },
+      {
+        "id": 6,
+        "title": "Coding",
+        "subtitle": "Write optimized blog posts in a fraction of the time",
+        "action": "Try Blog Content ->",
+        "action-link": "https://blog.oriontechdigital.com",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202094/ia_landing/icons/coding.png",
+        "alt": "Coding icon"
+      }
+    ]
+  },
+  "section-say": {
+    "bg": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714203499/ia_landing/say/bg.png",
+    "title": "Say ‘Goodbye’ To The Blank Page",
+    "title2": "For Good",
+    "subtitle": "Get your free account today",
+    "button1": "signup with google",
+    "google-icon": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202047/ia_landing/icons/google.png",
+      "alt": "google icon"
+    },
+    "button2": "signup with email",
+    "option": "or",
+    "message": "No Credit Card Required"
+  },
+  "section-testimonials": {
+    "title": "Let’s See What Our Clients Says",
+    "clients": [
+      {
+        "id": 1,
+        "title": "Brooklyn Simmons",
+        "role": "Nursing Assistant",
+        "paragraph": "Odio dictum lacus augue nulla sit integer facilisis massa. Nec et tellus eu amet. Faucibus sit sit massa ullamcorper",
+        "image": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714210100/ia_landing/testimonials/1.png",
+        "alt": "image client"
+      },
+      {
+        "id": 2,
+        "title": "Steve Henderson",
+        "role": "Mathematics Teacher",
+        "paragraph": "Odio dictum lacus augue nulla sit integer facilisis massa. Nec et tellus eu amet. Faucibus sit sit massa ullamcorper",
+        "image": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714210100/ia_landing/testimonials/3.png",
+        "alt": "image client"
+      },
+      {
+        "id": 3,
+        "title": "Lorena Ramos",
+        "role": "Software Engineer",
+        "paragraph": "Odio dictum lacus augue nulla sit integer facilisis massa. Nec et tellus eu amet. Faucibus sit sit massa ullamcorper",
+        "image": "https://res.cloudinary.com/djzp2k8gd/image/upload/f_webp,fl_awebp,q_auto/v1714210100/ia_landing/testimonials/2",
+        "alt": "image client"
+      },
+      {
+        "id": 4,
+        "title": "Robert Smith",
+        "role": "Executive Chef",
+        "paragraph": "Odio dictum lacus augue nulla sit integer facilisis massa. Nec et tellus eu amet. Faucibus sit sit massa ullamcorper",
+        "image": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714210100/ia_landing/testimonials/4.png",
+        "alt": "image client"
+      }
+    ]
+  },
+  "section-how": {
+    "title": "Orion Tech Digital",
+    "checks-icon": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714212358/ia_landing/icons/check.png",
+      "alt": "check icon"
+    },
+    "timeline": {
+      "stage 1": {
+        "id": 1,
+        "title": "Enter your copywrite project",
+        "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra est purus eu tempor tincidunt commodo.",
+        "checks": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "Quam duis viverra amet, ultrices risus quis integer nec nulla.",
+          "Tortor turpis nibh viverra nunc bibendum."
+        ],
+        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202983/ia_landing/how/img1.webp",
+        "alt": "stage1 image"
+      },
+      "stage 2": {
+        "id": 2,
+        "title": "Genarate Idea",
+        "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra est purus eu tempor tincidunt commodo.",
+        "checks": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "Quam duis viverra amet, ultrices risus quis integer nec nulla.",
+          "Tortor turpis nibh viverra nunc bibendum."
+        ],
+        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202983/ia_landing/how/img2.webp",
+        "alt": "stage2 image"
+      },
+      "stage 3": {
+        "id": 3,
+        "title": "Copy & Use",
+        "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra est purus eu tempor tincidunt commodo.",
+        "checks": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "Quam duis viverra amet, ultrices risus quis integer nec nulla.",
+          "Tortor turpis nibh viverra nunc bibendum."
+        ],
+        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202983/ia_landing/how/img3.webp",
+        "alt": "stage3 image"
+      },
+      "stage 4": {
+        "id": 4,
+        "title": "Finalize Project",
+        "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra est purus eu tempor tincidunt commodo.",
+        "checks": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "Quam duis viverra amet, ultrices risus quis integer nec nulla.",
+          "Tortor turpis nibh viverra nunc bibendum."
+        ],
+        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202983/ia_landing/how/img4.webp",
+        "alt": "stage4 image"
+      }
+    }
+  },
+  "section-last": {
+    "title": "Ready to level-up?",
+    "subtitle": "Id ipsum amet nibh dolor mi ac diam pellentesque.",
+    "button": "Get Started - It’s Free",
+    "checks-icon": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714212358/ia_landing/icons/check.png",
+      "alt": "check icon"
+    },
+    "checks": [
+      "No Credit Card Required",
+      "30 credits on sign up",
+      "90+ contents type to explore"
+    ]
+  },
+  "section-footer": {
+    "links": [
+      {
+        "id": 0,
+        "title": "home",
+        "href": "home",
+        "isDropdown": false,
+        "items": [],
+        "icon": "home.png",
+        "alt": "icon resources"
+      },
+      {
+        "id": 1,
+        "title": "user cases",
+        "href": "about",
+        "icon": "user-cases.png",
+        "alt": "user-cases icon"
+      },
+      {
+        "id": 3,
+        "title": "pricing",
+        "href": "last",
+        "isDropdown": false,
+        "external": false,
+        "items": ["", "", ""],
+        "icon": "prices.png",
+        "alt": "icon pricing"
+      },
+      {
+        "id": 4,
+        "title": "project",
+        "href": "how",
+        "isDropdown": false,
+        "external": false,
+        "items": ["", "", ""],
+        "icon": "project.png",
+        "alt": "icon project"
+      }
+    ],
+    "user-cases": {
+      "title": "User Cases",
+      "href": "#",
+      "links": [
+        {
+          "id": 1,
+          "text": "For Blog Writers",
+          "url": "#",
+          "external": false
+        },
+        {
+          "id": 2,
+          "text": "For Social Media",
+          "url": "#",
+          "external": false
+        },
+        {
+          "id": 3,
+          "text": "Managers",
+          "url": "#",
+          "external": false
+        },
+        {
+          "id": 4,
+          "text": "Report",
+          "url": "#",
+          "external": false
+        }
+      ]
+    },
+    "logo-white": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714207440/ia_landing/logos/logo-w.png",
+      "alt": "logo image"
+    },
+    "copywrite": "© 2024 copy ai, Inc",
+    "privacy": { "text": "Privacy Notice", "url": "" },
+    "terms": { "text": "Terms of service", "url": "" },
+    "social-media": {
+      "facebook": {
+        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714215273/ia_landing/icons/facebook.png",
+        "alt": "facebook icon",
+        "link": "https://www.facebook.com/pages/create/"
+      },
+      "instagram": {
+        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714215273/ia_landing/icons/instagram.png",
+        "alt": "linkedin icon",
+        "link": "https://www.instagram.com/"
+      },
+      "twitter": {
+        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714215273/ia_landing/icons/twitter.png",
+        "alt": "twitter icon",
+        "link": "https://twitter.com/userrandom"
+      }
+    }
+  },
+  "blog": {
+    "text": "blog",
+    "icon": "blog.png",
+    "href": "https://blog.oriontechdigital.com/"
+  },
+  "contact": "oriontechdigital@gmail.com"
+}
