@@ -52,9 +52,7 @@ const Navbar = () => {
               className="w-[92px] xl:w-[112px] cursor-pointer mr-2"
             />
           </a>
-          <button className="hidden mini:block min-w-max bg-red-custom text-[10px] text-white mini:px-2 mini:py-1 rounded-[4px]">
-            {data['section-header'].logo['logo-button']}
-          </button>
+          
         </div>
         <div className="hidden sm:flex items-end justify-between md:space-x-6 sm:space-x-3">
           {data['section-header'].links.map((item, index) => (
