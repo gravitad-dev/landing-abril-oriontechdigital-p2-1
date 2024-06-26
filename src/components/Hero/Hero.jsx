@@ -29,9 +29,11 @@ function Hero() {
               <button className="button-custom">
                 {data["section-hero"].button1}
               </button>
+              {/*
               <button className="button-red-custom">
                 {data["section-hero"].button2}
               </button>
+              */}
             </div>
           </div>
         </div>

@@ -27,8 +27,18 @@
         "href": "cases",
         "isDropdown": true,
         "items": [
-          { "id": 1, "text": "about", "link": "about", "external": false },
-          { "id": 2, "text": "future", "link": "future", "external": false },
+          {
+            "id": 1,
+            "text": "about",
+            "link": "about",
+            "external": false
+          },
+          {
+            "id": 2,
+            "text": "future",
+            "link": "future",
+            "external": false
+          },
           {
             "id": 3,
             "text": "testimonials",
@@ -45,7 +55,11 @@
         "href": "last",
         "isDropdown": false,
         "external": false,
-        "items": ["", "", ""],
+        "items": [
+          "",
+          "",
+          ""
+        ],
         "icon": "prices.png",
         "alt": "icon pricing"
       },
@@ -55,7 +69,11 @@
         "href": "how",
         "isDropdown": false,
         "external": false,
-        "items": ["", "", ""],
+        "items": [
+          "",
+          "",
+          ""
+        ],
         "icon": "project.png",
         "alt": "icon project"
       }
@@ -115,7 +133,7 @@
       {
         "id": 1,
         "title": "Deep Learning Solutions",
-        "items":[
+        "items": [
           "Custom AI models tailored to your business needs.",
           "Advanced analytics and predictive modeling.",
           "AI-driven automation and optimization."
@@ -128,7 +146,7 @@
       {
         "id": 2,
         "title": "Article",
-        "items":[
+        "items": [
           "Secure and scalable blockchain applications.",
           "Smart contract development and auditing.",
           "Decentralized solutions for various industries."
@@ -141,7 +159,7 @@
       {
         "id": 3,
         "title": "Content Writing",
-        "items":[
+        "items": [
           "Interactive and engaging online courses.",
           "Learning management systems (LMS) development.",
           "AI-enhanced educational tools and resources."
@@ -157,15 +175,15 @@
     "bg": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714203499/ia_landing/say/bg.png",
     "title": "We are constantly exploring new frontiers in technology to bring innovative solutions to our clients. Our commitment to R&D ensures that we stay ahead of the curve.",
     "title2": "For Good",
-    "subtitle": "Get your free account today",
-    "button1": "signup with google",
+    "subtitle": "Explore new frontiers in technology with us. ",
+    "button1": "Contact Us",
     "google-icon": {
       "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202047/ia_landing/icons/google.png",
       "alt": "google icon"
     },
     "button2": "signup with email",
     "option": "or",
-    "message": "No Credit Card Required"
+    "message": "Contact Us"
   },
   "section-testimonials": {
     "title": "Expert Team",
@@ -301,7 +319,11 @@
         "href": "last",
         "isDropdown": false,
         "external": false,
-        "items": ["", "", ""],
+        "items": [
+          "",
+          "",
+          ""
+        ],
         "icon": "prices.png",
         "alt": "icon pricing"
       },
@@ -311,7 +333,11 @@
         "href": "how",
         "isDropdown": false,
         "external": false,
-        "items": ["", "", ""],
+        "items": [
+          "",
+          "",
+          ""
+        ],
         "icon": "project.png",
         "alt": "icon project"
       }
@@ -351,8 +377,14 @@
       "alt": "logo image"
     },
     "copywrite": "© 2024 copy ai, Inc",
-    "privacy": { "text": "Privacy Notice", "url": "" },
-    "terms": { "text": "Terms of service", "url": "" },
+    "privacy": {
+      "text": "Privacy Notice",
+      "url": ""
+    },
+    "terms": {
+      "text": "Terms of service",
+      "url": ""
+    },
     "social-media": {
       "facebook": {
         "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714215273/ia_landing/icons/facebook.png",
