@@ -1,13 +1,13 @@
-import data from '../data.json';
-import { Link } from 'react-scroll';
-import PropTypes from 'prop-types';
+import data from "../data.json";
+import { Link } from "react-scroll";
+import PropTypes from "prop-types";
 
 function Footer() {
   return (
     <footer className="flex w-full pt-10 pb-10 bg-blue-custom overflow-hidden">
       <div className="flex flex-col justify-center text-white mx-auto">
         <div className="p-12 flex items-center justify-center flex-wrap gap-4 sm:gap-8 xl:gap-12 2xl:gap-20 mx-auto">
-          {data['section-footer'].links.map((link, index) => (
+          {data["section-footer"].links.map((link, index) => (
             <Link
               key={index}
               to={link.href}
@@ -22,21 +22,21 @@ function Footer() {
               </p>
             </Link>
           ))}
-          <a href={data['section-header']['blog-ref']} target="_blank">
+          <a href={data["section-header"]["blog-ref"]} target="_blank">
             <p className="mb-2 cursor-pointer hover:text-red-custom">
-              {data['section-header'].blog}
+              {data["section-header"].blog}
             </p>
           </a>
           <a href={`mailto:${data.contact}?subject=Contact`}>
             <p className="mb-2 cursor-pointer hover:text-red-custom">
-              {data['section-header']['contact-button']}
+              {data["section-header"]["contact-button"]}
             </p>
           </a>
         </div>
         <div className="w-screen flex items-center flex-wrap-reverse justify-around gap-6 sm:gap-12 p-4">
           <div className="flex justify-center items-end gap-4 flex-wrap px-2">
             <Link
-              to={'home'}
+              to={"home"}
               spy={false}
               smooth={true}
               duration={500}
@@ -44,59 +44,59 @@ function Footer() {
               className="cursor-pointer"
             >
               <img
-                src={data['section-footer']['logo-white'].url}
-                alt={data['section-footer']['logo-white'].alt}
-                className="h-6 sm:h-6 mini:w-auto lg:w-32 lg:h-auto hover:invert-[0.1]"
+                src={data["section-footer"]["logo-white"].url}
+                alt={data["section-footer"]["logo-white"].alt}
+                className="h-6 sm:h-6 mini:w-50 lg:w-10 lg:h-auto hover:invert-[0.1]"
               />
             </Link>
             <p className="hidden mini:block text-[10px] truncate">
-              {data['section-footer'].copywrite}
+              {data["section-footer"].copywrite}
             </p>
-            <a href={data['section-footer'].privacy.url}>
+            <a href={data["section-footer"].privacy.url}>
               <p className="text-[8px] xxs:text-[10px] truncate hover:text-light-blue-custom">
-                {data['section-footer'].privacy.text}
+                {data["section-footer"].privacy.text}
               </p>
             </a>
-            <a href={data['section-footer'].terms.url}>
+            <a href={data["section-footer"].terms.url}>
               <p className="text-[8px] xxs:text-[10px] truncate hover:text-light-blue-custom">
-                {data['section-footer'].terms.text}
+                {data["section-footer"].terms.text}
               </p>
             </a>
           </div>
           <div className="flex items-center gap-4">
             <a
-              href={data['section-footer']['social-media'].facebook.link}
+              href={data["section-footer"]["social-media"].facebook.link}
               target="_blank"
             >
               <img
-                title={data['section-footer']['social-media'].facebook.link}
+                title={data["section-footer"]["social-media"].facebook.link}
                 width={24}
-                src={data['section-footer']['social-media'].facebook.url}
-                alt={data['section-footer']['social-media'].facebook.alt}
+                src={data["section-footer"]["social-media"].facebook.url}
+                alt={data["section-footer"]["social-media"].facebook.alt}
                 className="hover:invert-[0.1]"
               />
             </a>
             <a
-              href={data['section-footer']['social-media'].instagram.link}
+              href={data["section-footer"]["social-media"].instagram.link}
               target="_blank"
             >
               <img
-                title={data['section-footer']['social-media'].instagram.link}
+                title={data["section-footer"]["social-media"].instagram.link}
                 width={24}
-                src={data['section-footer']['social-media'].instagram.url}
-                alt={data['section-footer']['social-media'].instagram.alt}
+                src={data["section-footer"]["social-media"].instagram.url}
+                alt={data["section-footer"]["social-media"].instagram.alt}
                 className="hover:invert-[0.1]"
               />
             </a>
             <a
-              href={data['section-footer']['social-media'].twitter.link}
+              href={data["section-footer"]["social-media"].twitter.link}
               target="_blank"
             >
               <img
-                title={data['section-footer']['social-media'].twitter.link}
+                title={data["section-footer"]["social-media"].twitter.link}
                 width={24}
-                src={data['section-footer']['social-media'].twitter.url}
-                alt={data['section-footer']['social-media'].twitter.alt}
+                src={data["section-footer"]["social-media"].twitter.url}
+                alt={data["section-footer"]["social-media"].twitter.alt}
                 className="hover:invert-[0.1]"
               />
             </a>

@@ -2,10 +2,10 @@
   "section-header": {
     "logo": {
       "image": {
-        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714206350/ia_landing/logos/logo.png",
+        "url": "https://res.cloudinary.com/db60chvpz/image/upload/v1719431414/mzi7ah2fwxwhqnx05byv.png",
         "alt": "logo image"
       },
-      "logo-button": "We’re Hiring"
+      "logo-button": ""
     },
     "dropdow-icon": {
       "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714207472/ia_landing/dropdown.png",
@@ -347,7 +347,7 @@
       ]
     },
     "logo-white": {
-      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714207440/ia_landing/logos/logo-w.png",
+      "url": "https://res.cloudinary.com/db60chvpz/image/upload/v1719431414/mzi7ah2fwxwhqnx05byv.png",
       "alt": "logo image"
     },
     "copywrite": "© 2024 copy ai, Inc",
