@@ -45,12 +45,13 @@ const Navbar = () => {
     >
       <div className="flex items-center justify-between w-full">
         <div className="flex items-end gap-1.5 mr-2">
-          <a href="/">
+          <a href="/" className="flex text-2xl items-center">
             <img
               src={data["section-header"].logo.image.url}
               alt={data["section-header"].logo.image.alt}
               className="w-[52px] xl:w-[60px] cursor-pointer mr-2"
             />
+            <h1>{data["section-header"].logo.name}</h1>
           </a>
         </div>
         <div className="hidden sm:flex items-end justify-between md:space-x-6 sm:space-x-3">

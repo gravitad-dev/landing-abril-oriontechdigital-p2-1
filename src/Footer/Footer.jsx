@@ -34,7 +34,7 @@ function Footer() {
           </a>
         </div>
         <div className="w-screen flex items-center flex-wrap-reverse justify-around gap-6 sm:gap-12 p-4">
-          <div className="flex justify-center items-end gap-4 flex-wrap px-2">
+          <div className="flex justify-center items-center gap-4 flex-wrap px-2">
             <Link
               to={"home"}
               spy={false}
