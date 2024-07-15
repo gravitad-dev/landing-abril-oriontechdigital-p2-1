@@ -15,7 +15,7 @@
     "links": [
       {
         "id": 0,
-        "title": "home",
+        "title": "Principal",
         "href": "home",
         "isDropdown": false,
         "items": [],
@@ -24,25 +24,25 @@
       },
       {
         "id": 1,
-        "title": "user cases",
+        "title": "Casos",
         "href": "cases",
         "isDropdown": true,
         "items": [
           {
             "id": 1,
-            "text": "about",
+            "text": "Sobre",
             "link": "about",
             "external": false
           },
           {
             "id": 2,
-            "text": "future",
+            "text": "Futuro",
             "link": "future",
             "external": false
           },
           {
             "id": 3,
-            "text": "testimonials",
+            "text": "Testimonios",
             "link": "testimonials",
             "external": false
           }
@@ -52,7 +52,7 @@
       },
       {
         "id": 3,
-        "title": "pricing",
+        "title": "Precios",
         "href": "last",
         "isDropdown": false,
         "external": false,
@@ -66,7 +66,7 @@
       },
       {
         "id": 4,
-        "title": "project",
+        "title": "projecto",
         "href": "how",
         "isDropdown": false,
         "external": false,
@@ -82,7 +82,7 @@
     "blog": "blog",
     "blog-icon": "blog.png",
     "blog-ref": "https://blog.oriontechdigital.com/",
-    "contact-button": "Contact Us",
+    "contact-button": "Contacta",
     "contact-button-icon": "contact.png"
   },
   "section-hero": {
@@ -90,10 +90,10 @@
       "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/f_auto,q_auto/v1/ia_landing/hero/bg",
       "alt": "hero bg"
     },
-    "title": "Innovate, Educate, Elevate",
-    "title2": "Innovate, Educate, Elevate",
-    "subtitle": "At OrionTechDigital, we are pioneers in the fields of Deep Learning, Blockchain, and E-Learning. Our team consists of passionate technologists and educators dedicated to leveraging advanced technologies to drive innovation and transformation across various industries. We believe in the power of technology to change the world and are committed to creating solutions that are both cutting-edge and impactful.",
-    "button1": "Get Started",
+    "title": "Innovar, educar, elevar",
+    "title2": "Innovar, educar, elevar",
+    "subtitle": "En OrionTechDigital somos pioneros en los campos de Deep Learning, Blockchain y E-Learning. Nuestro equipo está formado por tecnólogos y educadores apasionados dedicados a aprovechar las tecnologías avanzadas para impulsar la innovación y la transformación en diversas industrias. Creemos en el poder de la tecnología para cambiar el mundo y estamos comprometidos a crear soluciones que sean a la vez innovadoras e impactantes.",
+    "button1": "Empezar",
     "button2": "How It Works"
   },
   "section-slider": [
@@ -123,49 +123,49 @@
       "url": "https://res.cloudinary.com/djzp2k8gd/video/upload/v1714271421/ia_landing/arflysquuiyapgl5nwcd.mp4",
       "alt": "video design"
     },
-    "title": "More About Us",
-    "subtitle": "Professional & Team Choose Copy.Ai",
-    "paragraph": "Our mission is to harness the potential of Deep Learning and Blockchain technologies to revolutionize the E-Learning landscape. We aim to provide accessible, high-quality education and training, enabling individuals and organizations to thrive in a digital-first world. By combining innovation with practical application, we strive to create a future where technology empowers everyone.",
-    "button": "Get Started"
+    "title": "Más Sobre Nosotros",
+    "subtitle": "",
+    "paragraph": "Nuestra misión es aprovechar el potencial de las tecnologías Deep Learning y Blockchain para revolucionar el panorama del E-Learning. Nuestro objetivo es brindar educación y capacitación accesibles y de alta calidad, permitiendo a las personas y organizaciones prosperar en un mundo en el que lo digital es lo primero. Al combinar la innovación con la aplicación práctica, nos esforzamos por crear un futuro donde la tecnología empodere a todos.",
+    "button": "Explorar"
   },
   "section-features": {
-    "title": "Our Features",
+    "title": "Características",
     "cards": [
       {
         "id": 1,
-        "title": "Deep Learning Solutions",
+        "title": "Soluciones de aprendizaje profundo",
         "items": [
-          "Custom AI models tailored to your business needs.",
-          "Advanced analytics and predictive modeling.",
-          "AI-driven automation and optimization."
+          "Modelos de IA personalizados adaptados a las necesidades de su negocio.",
+          "Análisis avanzado y modelado predictivo.",
+          "Automatización y optimización impulsadas por IA."
         ],
-        "action": "Try Blog Content ->",
+        "action": "Prueba el contenido ->",
         "action-link": "https://blog.oriontechdigital.com",
         "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202094/ia_landing/icons/blog.png",
         "alt": "Blog content icon"
       },
       {
         "id": 2,
-        "title": "Article",
+        "title": "Desarrollo de cadenas de bloques",
         "items": [
-          "Secure and scalable blockchain applications.",
-          "Smart contract development and auditing.",
-          "Decentralized solutions for various industries."
+          "Aplicaciones blockchain seguras y escalables.",
+          "Desarrollo y auditoría de contratos inteligentes.",
+          "Soluciones descentralizadas para diversas industrias."
         ],
-        "action": "Try Blog Content ->",
+        "action": "Prueba el contenido ->",
         "action-link": "https://blog.oriontechdigital.com",
         "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202094/ia_landing/icons/article.png",
         "alt": "Article icon"
       },
       {
         "id": 3,
-        "title": "Content Writing",
+        "title": "Plataformas de aprendizaje electrónico",
         "items": [
-          "Interactive and engaging online courses.",
-          "Learning management systems (LMS) development.",
-          "AI-enhanced educational tools and resources."
+          "Cursos en línea interactivos y atractivos.",
+          "Desarrollo de sistemas de gestión del aprendizaje (LMS).",
+          "Herramientas y recursos educativos mejorados con IA."
         ],
-        "action": "Try Blog Content ->",
+        "action": "Prueba el contenido ->",
         "action-link": "https://blog.oriontechdigital.com",
         "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202095/ia_landing/icons/content%20writing.png",
         "alt": "Writing icon"
@@ -174,21 +174,21 @@
   },
   "section-say": {
     "bg": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714203499/ia_landing/say/bg.png",
-    "title": "We are constantly exploring new frontiers in technology to bring innovative solutions to our clients. Our commitment to R&D ensures that we stay ahead of the curve.",
-    "title2": "For Good",
-    "subtitle": "Explore new frontiers in technology with us. ",
-    "button1": "Contact Us",
+    "title": "Exploramos constantemente nuevas fronteras en tecnología para brindar soluciones innovadoras a",
+    "title2": "nuestros clientes. ",
+    "subtitle": "Nuestro compromiso con la I+D garantiza que nos mantengamos a la vanguardia ",
+    "button1": "Contáctanos",
     "google-icon": {
       "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202047/ia_landing/icons/google.png",
       "alt": "google icon"
     },
     "button2": "signup with email",
     "option": "or",
-    "message": "Contact Us"
+    "message": "Contáctanos"
   },
   "section-testimonials": {
-    "title": "Expert Team",
-    "paragraph": "Our team is comprised of experts with deep knowledge and experience in their respective fields. Their passion and dedication drive the excellence we deliver.",
+    "title": "Equipo de Expertos",
+    "paragraph": "Equipo de expertos Nuestro equipo está compuesto por expertos con profundo conocimiento y experiencia en sus respectivos campos. Su pasión y dedicación impulsan la excelencia que ofrecemos.",
     "clients": [
       {
         "id": 1,
@@ -233,8 +233,8 @@
     "timeline": {
       "stage 1": {
         "id": 1,
-        "title": "Proven Track Record",
-        "subtitle": "We have successfully implemented numerous projects across various industries, demonstrating our expertise and reliability.",
+        "title": "Historial comprobado",
+        "subtitle": "Hemos implementado con éxito numerosos proyectos en diversas industrias, lo que demuestra nuestra experiencia y confiabilidad.",
         "checks": [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           "Quam duis viverra amet, ultrices risus quis integer nec nulla.",
@@ -245,8 +245,8 @@
       },
       "stage 2": {
         "id": 2,
-        "title": "Quality Assurance",
-        "subtitle": "We adhere to the highest standards of quality in every project we undertake, ensuring that our solutions are effective and reliable.",
+        "title": "Garantía de Calidad",
+        "subtitle": "Nos adherimos a los más altos estándares de calidad en cada proyecto que llevamos a cabo, asegurando que nuestras soluciones sean efectivas y confiables.",
         "checks": [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           "Quam duis viverra amet, ultrices risus quis integer nec nulla.",
@@ -257,8 +257,8 @@
       },
       "stage 3": {
         "id": 3,
-        "title": "Transparent Processes",
-        "subtitle": "We believe in maintaining transparency with our clients throughout the project lifecycle, fostering trust and long-term relationships.",
+        "title": "Procesos transparentes",
+        "subtitle": "Creemos en mantener la transparencia con nuestros clientes durante todo el ciclo de vida del proyecto, fomentando la confianza y las relaciones de largo plazo.",
         "checks": [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           "Quam duis viverra amet, ultrices risus quis integer nec nulla.",
@@ -269,8 +269,8 @@
       },
       "stage 4": {
         "id": 4,
-        "title": "Dedicated Support",
-        "subtitle": "Our support team is always ready to assist you, providing timely and effective solutions to any issues you may encounter.",
+        "title": "Soporte dedicado",
+        "subtitle": "Nuestro equipo de soporte está siempre listo para ayudarlo, brindándole soluciones oportunas y efectivas a cualquier problema que pueda encontrar.",
         "checks": [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           "Quam duis viverra amet, ultrices risus quis integer nec nulla.",
@@ -282,8 +282,8 @@
     }
   },
   "section-last": {
-    "title": "Client-Centric Approach",
-    "paragraph": "We prioritize our clients' needs and work closely with them to understand their challenges and goals. Our solutions are tailored to ensure maximum impact and satisfaction.",
+    "title": "Enfoque centrado en el cliente",
+    "paragraph": " Priorizamos las necesidades de nuestros clientes y trabajamos estrechamente con ellos para comprender sus desafíos y objetivos. Nuestras soluciones están diseñadas para garantizar el máximo impacto y satisfacción.",
     "subtitle": "Id ipsum amet nibh dolor mi ac diam pellentesque.",
     "button": "Get Started - It’s Free",
     "checks-icon": {
@@ -300,7 +300,7 @@
     "links": [
       {
         "id": 0,
-        "title": "home",
+        "title": "Principal",
         "href": "home",
         "isDropdown": false,
         "items": [],
@@ -309,14 +309,14 @@
       },
       {
         "id": 1,
-        "title": "user cases",
+        "title": "Casos de Usuario",
         "href": "about",
         "icon": "user-cases.png",
         "alt": "user-cases icon"
       },
       {
         "id": 3,
-        "title": "pricing",
+        "title": "Precio",
         "href": "last",
         "isDropdown": false,
         "external": false,
@@ -330,7 +330,7 @@
       },
       {
         "id": 4,
-        "title": "project",
+        "title": "Projecto",
         "href": "how",
         "isDropdown": false,
         "external": false,

@@ -16,14 +16,14 @@ function Hero() {
             </h1>
 
             <p className="text-gray-custom mt-4 w-full md:w-1/2 mx-auto px-2">
-              At <span className="font-bold">OrionTechDigital</span>, we are
-              pioneers in the fields of Deep Learning, Blockchain, and
-              E-Learning. Our team consists of passionate technologists and
-              educators dedicated to leveraging advanced technologies to drive
-              innovation and transformation across various industries. We
-              believe in the power of technology to change the world and are
-              committed to creating solutions that are both cutting-edge and
-              impactful.
+              En <span className="font-bold">OrionTechDigital</span> somos
+              pioneros en los campos de Deep Learning, Blockchain y E-Learning.
+              Nuestro equipo está formado por tecnólogos y educadores
+              apasionados dedicados a aprovechar las tecnologías avanzadas para
+              impulsar la innovación y la transformación en diversas industrias.
+              Creemos en el poder de la tecnología para cambiar el mundo y
+              estamos comprometidos a crear soluciones que sean a la vez
+              innovadoras e impactantes.
             </p>
             <div className="min-w-max overflow-hidden flex items-center flex-col break_custom:flex-row mt-8 mx-auto gap-8">
               <button className="button-custom">

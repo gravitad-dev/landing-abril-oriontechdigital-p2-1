@@ -19,9 +19,11 @@ function Say() {
           }}
         >
           <div className="flex w-full h-[68vw] max-h-[985px] flex-col mx-auto text-center justify-around gap-8 break_custom:gap-16 sm:gap-36 2xl:gap-40">
-            <div className="flex flex-col items-center justify-center w-[46%] md:w-[55%] mx-auto">
+            <div className="flex flex-col items-center justify-center w-[46%] md:w-[55%] mx-auto ">
               <p className="text-white font-semibold text-[0.6rem] mini:text-[0.8rem] break_custom:text-[1rem] sm:text-[1.6rem] md:text-[2rem] xl:text-[2.4rem] leading-tight mt-4 sm:mt-0">
                 {data["section-say"].title}
+              </p>
+              <p className="pt-10 text-white font-semibold text-[0.6rem] mini:text-[0.8rem] break_custom:text-[1rem] sm:text-[1.6rem] md:text-[2rem] xl:text-[2.4rem] leading-tight mt-4 sm:mt-0">
                 <span className="text-red-custom inline ml-[2%]">
                   {data["section-say"].title2}
                 </span>
@@ -31,7 +33,7 @@ function Say() {
               <p className="hidden mini:block mb-2 text-[10px] sm:text-[12px] md:text-[14px] xl:text-2xl">
                 {data["section-say"].subtitle}
               </p>
-              
+
               <span className="hidden mini:block mt-2 text-[8px] mini:text-[12px] xl:text-xl text-light-blue-custom">
                 {data["section-say"].message}
               </span>
@@ -44,8 +46,8 @@ function Say() {
 }
 export default Say;
 
-
-{/*
+{
+  /*
   
 <div className="flex flex-col mini:flex-row items-center xl:space-x-6 mini:space-y-0 -space-y-2 gap-2 text-[10px] sm:text-[12px] md:text-[14px]">
   <div className="flex items-center gap-1 mini:bg-white hover:text-light-blue-custom rounded-full px-0 py-0 mini:px-2 sm:px-4 mini:py-1 2xl:py-2">
@@ -72,4 +74,5 @@ export default Say;
   </div>
 </div>
   
-*/}
+*/
+}
