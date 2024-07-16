@@ -1,6 +1,7 @@
 import data from "../data.json";
 import { Link } from "react-scroll";
 import PropTypes from "prop-types";
+import SocialButtons from "../components/Socials";
 
 function Footer() {
   return (
@@ -33,6 +34,9 @@ function Footer() {
             </p>
           </a>
         </div>
+        <div>
+          <SocialButtons />
+        </div>
         <div className="w-screen flex items-center flex-wrap-reverse justify-around gap-6 sm:gap-12 p-4">
           <div className="flex justify-center items-center gap-4 flex-wrap px-2">
             <Link
@@ -61,44 +65,6 @@ function Footer() {
               <p className="text-[8px] xxs:text-[10px] truncate hover:text-light-blue-custom">
                 {data["section-footer"].terms.text}
               </p>
-            </a>
-          </div>
-          <div className="flex items-center gap-4">
-            <a
-              href={data["section-footer"]["social-media"].facebook.link}
-              target="_blank"
-            >
-              <img
-                title={data["section-footer"]["social-media"].facebook.link}
-                width={24}
-                src={data["section-footer"]["social-media"].facebook.url}
-                alt={data["section-footer"]["social-media"].facebook.alt}
-                className="hover:invert-[0.1]"
-              />
-            </a>
-            <a
-              href={data["section-footer"]["social-media"].instagram.link}
-              target="_blank"
-            >
-              <img
-                title={data["section-footer"]["social-media"].instagram.link}
-                width={24}
-                src={data["section-footer"]["social-media"].instagram.url}
-                alt={data["section-footer"]["social-media"].instagram.alt}
-                className="hover:invert-[0.1]"
-              />
-            </a>
-            <a
-              href={data["section-footer"]["social-media"].twitter.link}
-              target="_blank"
-            >
-              <img
-                title={data["section-footer"]["social-media"].twitter.link}
-                width={24}
-                src={data["section-footer"]["social-media"].twitter.url}
-                alt={data["section-footer"]["social-media"].twitter.alt}
-                className="hover:invert-[0.1]"
-              />
             </a>
           </div>
         </div>
