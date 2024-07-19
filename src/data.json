@@ -56,11 +56,7 @@
         "href": "last",
         "isDropdown": false,
         "external": false,
-        "items": [
-          "",
-          "",
-          ""
-        ],
+        "items": ["", "", ""],
         "icon": "prices.png",
         "alt": "icon pricing"
       },
@@ -70,11 +66,7 @@
         "href": "how",
         "isDropdown": false,
         "external": false,
-        "items": [
-          "",
-          "",
-          ""
-        ],
+        "items": ["", "", ""],
         "icon": "project.png",
         "alt": "icon project"
       }
@@ -82,7 +74,7 @@
     "blog": "blog",
     "blog-icon": "blog.png",
     "blog-ref": "https://blog.oriontechdigital.com/",
-    "contact-button": "Contacta",
+    "contact-button": "Contacto",
     "contact-button-icon": "contact.png"
   },
   "section-hero": {
@@ -93,7 +85,7 @@
     "title": "Innovar, educar, elevar",
     "title2": "Innovar, educar, elevar",
     "subtitle": "En OrionTechDigital somos pioneros en los campos de Deep Learning, Blockchain y E-Learning. Nuestro equipo está formado por tecnólogos y educadores apasionados dedicados a aprovechar las tecnologías avanzadas para impulsar la innovación y la transformación en diversas industrias. Creemos en el poder de la tecnología para cambiar el mundo y estamos comprometidos a crear soluciones que sean a la vez innovadoras e impactantes.",
-    "button1": "Empezar",
+    "button1": "Contacto",
     "button2": "How It Works"
   },
   "section-slider": [
@@ -320,11 +312,7 @@
         "href": "last",
         "isDropdown": false,
         "external": false,
-        "items": [
-          "",
-          "",
-          ""
-        ],
+        "items": ["", "", ""],
         "icon": "prices.png",
         "alt": "icon pricing"
       },
@@ -334,11 +322,7 @@
         "href": "how",
         "isDropdown": false,
         "external": false,
-        "items": [
-          "",
-          "",
-          ""
-        ],
+        "items": ["", "", ""],
         "icon": "project.png",
         "alt": "icon project"
       }
@@ -409,5 +393,5 @@
     "icon": "blog.png",
     "href": "https://blog.oriontechdigital.com/"
   },
-  "contact": "oriontechdigital@gmail.com"
+  "contact": "https://blog.oriontechdigital.com/contacto/"
 }
