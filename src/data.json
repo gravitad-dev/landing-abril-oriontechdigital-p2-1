@@ -52,7 +52,7 @@
       },
       {
         "id": 3,
-        "title": "Precios",
+        "title": "Enfoque",
         "href": "last",
         "isDropdown": false,
         "external": false,
@@ -62,7 +62,7 @@
       },
       {
         "id": 4,
-        "title": "projecto",
+        "title": "Proyecto",
         "href": "how",
         "isDropdown": false,
         "external": false,
@@ -71,7 +71,7 @@
         "alt": "icon project"
       }
     ],
-    "blog": "blog",
+    "blog": "Blog",
     "blog-icon": "blog.png",
     "blog-ref": "https://blog.oriontechdigital.com/",
     "contact-button": "Contacto",
@@ -308,7 +308,7 @@
       },
       {
         "id": 3,
-        "title": "Precio",
+        "title": "Enfoque",
         "href": "last",
         "isDropdown": false,
         "external": false,
@@ -318,7 +318,7 @@
       },
       {
         "id": 4,
-        "title": "Projecto",
+        "title": "Proyecto",
         "href": "how",
         "isDropdown": false,
         "external": false,
@@ -389,7 +389,7 @@
     }
   },
   "blog": {
-    "text": "blog",
+    "text": "Blog",
     "icon": "blog.png",
     "href": "https://blog.oriontechdigital.com/"
   },
